@@ -1,0 +1,65 @@
+{
+  "config": {
+    "size": 320,
+    "trials": 24,
+    "n_images": 8,
+    "severities": [
+      0.0,
+      0.25,
+      0.5,
+      0.75,
+      1.0
+    ],
+    "quick": false
+  },
+  "fiducials": {
+    "coverage_full_frac": 0.325,
+    "marker_iou_median": 0.0,
+    "corner_err_px_median": 1.1372565256255935,
+    "usable_mtf_edge_frac": 1.0
+  },
+  "channel": {
+    "n_rows": 40,
+    "veil_fraction_err_median": -0.4840889091776073,
+    "veil_fraction_err_mad": 0.32477730516531345,
+    "veil_fraction_err_abs_median": 0.4840889091776073,
+    "psf_sigma_rel_err_median": -0.14255398405753367,
+    "psf_sigma_rel_err_mad": 0.11051103865615163,
+    "psf_sigma_rel_err_abs_median": 0.14255398405753367,
+    "density_abs_rmse_median": 0.5947007640013735,
+    "density_abs_rmse_mad": 0.24045382820696015,
+    "density_abs_rmse_abs_median": 0.5947007640013735,
+    "density_diff_rmse_median": 0.5439026294769866,
+    "density_diff_rmse_mad": 0.19695511485551526,
+    "density_diff_rmse_abs_median": 0.5439026294769866,
+    "coverage_full_frac": 0.275
+  },
+  "detectability": {
+    "n_conditions": 16,
+    "n_measurable": 12,
+    "median_ratio": 1.813393803272043,
+    "iqr_ratio": [
+      0.6041093871964456,
+      4.173557459226944
+    ],
+    "pass_frac": 0.25,
+    "median_linearity_r2": 0.9663640859122885
+  },
+  "ordering": {
+    "margin_db_by_severity": {
+      "0.0": -15.44332594262826,
+      "0.25": -16.882482938352652,
+      "0.5": -18.60830278331159,
+      "0.75": -19.639181503349114,
+      "1.0": -17.668060711380885
+    },
+    "margin_falls_monotonically": false,
+    "insufficient_frac_by_severity": {
+      "0.0": 1.0,
+      "0.25": 0.75,
+      "0.5": 0.75,
+      "0.75": 1.0,
+      "1.0": 0.75
+    }
+  }
+}
